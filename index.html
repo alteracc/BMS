@@ -1,79 +1,61 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Buddy Bank</title>
-	<style type="text/css">
-		.row {
-			float : left;
-			margin-right : 1%;
-			height: 100%;
-			
-		}
-		.nav_bar{
-			padding-top: 1%;
-			width: 15%;
-			text-align:center;
-			height:40px;
-			
-		}
-		.logo{
-			margin-left: 3%;
-			margin-right: 4%;
-			width: 13%;
-			
-		}
-		a{
-			text-decoration: none;
-			font-size: 15px;
-		}
-		#tabs:hover{
-			font-size: 15px;
-			font-weight: bold;
-			background-color: rgb(240,240,240);
-		}
-		#col_1{
-		padding-top: 7%;
-		width:20%;
-		height: 435px;
-		margin-left:1%;
-
-		}
-		#col_2{
-		margin-top: 1%;
-		}
-		ul{
-		list-style-type: square;
-		}
-		#link1:hover,#link2:hover,#link3:hover{
-			text-decoration: underline;
-		}
-	</style>	
+	<title>ALLY BANK</title>
+	
+	<link  rel = "stylesheet" type="text/css" href = "style.css"/>
 </head>
 <body>
-	<div id="row_1">
-		<!--<div id="company" class="row logo" style="margin-right:0%;"><a href=""><img src="logo.jpg" width="70%" height="100%"/></a></div>
-		<div id="company" class="row nav_bar" style="margin-left:-3%;width:10%;text-align:justify;"><a href=""><img src="logo3D.png" width="100%" height="150%"/></a></div> -->
-		<div id="company" class="row logo"><a href=""><img src="logo_new2.png" width="100%" height="100%"/></a></div>
-		<div id="tabs" class="row nav_bar"><a href="">Home</a></div>
-		<div id="tabs" class="row nav_bar"><a href="">Services</a></div>
-		<div id="tabs" class="row nav_bar"><a href="">Terms and Conditions</a></div>
-		<div id="tabs" class="row nav_bar"><a href="">About Us</a></div>
-		<div id="tabs" class="row nav_bar"><a href="">Contact</a></div>
-	</div>
-	<br>
-	<br><br><br>
-	<div id="row_2">
-		<div id="col_1" class="row">
-			<ul><li><a id="link1" href="">Create New Bank Account<a></li></ul>
-			<ul><li><a id="link2" href="">Net Banking</a></li></ul>
-			<ul><li><a id="link3" href="">Login</a></li></ul>
-		
-		</div class="row">
-		<div id="col_2">
-		<img src="img1.png" width="75%" height="50%"/>
-		</div>
-	</div>
-</body>
 
+	<div id="row_1">
+		<img id="logo" width = "10%" height = "100%"  src="f.jpg"/>		
+		<div class = "menu"><a href="google.com">HOME</a> </div>
+		<div class = "menu"><a href="https://www.tutorialspoint.com">POLICY</a></div>
+		<div class = "menu"><a href="">LOANS</a></div>
+		<div class = "menu"><a href="">TERMS AND CONDITIONS</a></div> 
+		<div class = "menu"><a href="">ABOUT US</a></div>	
+	
+	</div>
+	<div id="row_3">
+	
+		<div class = "body" id = "col_1">
+			<a href="create_bank_account.html">CREATE BANK ACCOUNT</a></br>		
+			<a href="create_online_account.html">CREATE ONLINE ACCOUNT</a></br>
+		</div>
+
+		<div class = "body" id = "col_2">
+	
+			<div id="slider">
+				<div id="slides">
+					<img class="images" src="images/1.jpg"/>
+					<img class="images" src="images/2.jpg"/>
+					<img class="images" src="images/3.jpg"/>
+					<img class="images" src="images/4.jpg"/>
+					<img class="images" src="images/5.jpg"/>
+				</div>
+			</div>
+						
+		</div>
+		
+		<div class = "body" id = "col_3">
+			<form>
+				<table align="center">
+				<th colspan="2">LOGIN</th>
+				<tr><td>Username:</td><td><input type="text" placeholder="Enter user id" /></td></tr>
+				<tr><td>Password:</td><td><input type="password" placeholder="Enter password" /></td></tr>
+				<tr><td colspan="2" align="center"><input type="submit" value="Login"></td></tr>
+				</table>
+			</form>
+		</div>
+		
+	</div>
+	<div id="row_4"> Contact us 	 e-mail : xxx@gmail.com 	phone : 1234567890</div>
+	<div align = "center"  id="row_5">&#169copyright</div>
+
+
+<script type="text/javascript" src="JQ.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
 
 </html>

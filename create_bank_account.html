@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>ALLY BANK</title>
+</head>
+
+<body>
+
+<h1>Creating Account</h1>
+<form method="post" action="http://localhost/ABS/create_bank_account.php">
+	<table >
+		<tr>	<td>First name : </td><td><input name = "name"type="text"/></td><tr/>
+		<tr>	<td>Father's name : </td><td><input name="father_name" type="text"/></td><tr/>
+		<tr>	<td>Mother's name : </td><td><input name="mother_name" type="text"/></td><tr/>
+		<tr> 	<td>Date of Birth : </td> <td> <input name="dob" type="date"/> </td> </tr>
+		<tr>    <td>Gender :        </td> <td>  <select name=gender> 
+													<option value="m">Male</option> 
+													<option value="f">Female</option>
+													<option value="o">Other</ooption>
+												</select>
+											</td>	
+		<tr> 	<td> E-mail : </td> 		<td> <input name="email" type="email"/> </td>	</tr>
+		<tr> 	<td> Contact no. : </td> 		<td> <input name="phone_no" type="number"/> </td>	</tr>
+		<tr> 	<td> Aadhar no. : </td> 		<td> <input name="aadhar_no" type="number"/> </td>	</tr>
+		<tr> 	<td> Pan no. : </td> 		<td> <input name="pan_no" type="number"/> </td>	</tr>		
+		<tr> 	<td> Occupation : </td> 		<td> <input name="occupation" type="text"/> </td>	</tr>
+		<tr>	<td> Permanent Address    : </td>		<td> <input name="permanent_address" type="text"/> </td>		</tr>
+		<tr>	<td> Pin : </td> <td><input type="number" name="permanent_pin"></td>
+		<tr>	<td> Temporary Address    : </td>		<td> <input name="temporary_address" type="text"/> </td>		</tr>
+		<tr>	<td> Pin : </td> <td><input type="number" name="temporary_pin"></td>		
+		<tr> 	<td> Country : </td> 		<td> <input name="country" type="text"/> </td>	</tr>
+		<tr> 	<td> Home Branch : </td> 	<td> <input name="home_branch" type="text"/> </td>	</tr>
+		<tr>	<td><input type="submit" value="Create Account"></td></tr>
+	</table>
+
+
+</form>
+</body>
+
+</html>
