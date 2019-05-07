@@ -1,0 +1,73 @@
+body{
+	background-color : BLUE;
+	height : 100%;
+	padding : 0px;
+	margin : 0px;
+}
+	
+html{
+	height : 100%;
+}
+
+#row_1{
+	background-color : RED;
+	height : 25%;
+}
+
+#row_3{
+	background-color : pink;
+	height : 61%;
+}
+#row_4{
+	background-color : ORANGE;
+	height : 4%
+}
+#row_5{
+	background-color : GREY;
+	height : 4%;
+}
+
+
+.menu{
+	width : 10%;
+	float : left;
+	background-color : CYAN;
+	margin : 0px;
+	box-sizing : border-box;
+	height : 100%;
+	text-align : center;
+	padding : 1%;
+	font-size : 1.5vw;
+}
+
+.body{
+	width : 30%;
+	height : 100%;
+	float : left;
+	border : solid black 1px;
+	box-sizing : border-box;
+}
+#col_2{
+	width  : 40%;
+}
+
+
+#slider{
+	height : 100%;
+	width : 100%;
+	overflow : hidden;
+}
+
+
+#slides{
+	
+	height : 100%;
+	width : 500%;
+	margin-left: -400%;
+}
+
+.images{
+	float : left;
+	width : 20%;
+	height : 100%;	
+}
